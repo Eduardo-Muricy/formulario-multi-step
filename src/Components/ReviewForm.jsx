@@ -21,7 +21,7 @@ const RewielForm = ({data, updateFieldaHandler}) => {
       <p>Satisfeito</p>
     </label>
     <label  className="radio-container">
-      <input type="radio" name="review" value="very_satisfield" required checked={data.review === 'vary_satisfield'} onChange={(e)=> updateFieldaHandler('review', e.target.value)}/>
+      <input type="radio" name="review" value="very_satisfield" required checked={data.review === 'very_satisfield'} onChange={(e)=> updateFieldaHandler('review', e.target.value)}/>
       <BsFillEmojiHeartEyesFill/>
       <p>Muito satisfeito</p>
     </label>
